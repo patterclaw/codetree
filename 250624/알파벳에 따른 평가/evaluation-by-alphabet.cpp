@@ -6,7 +6,7 @@ int main() {
     char c;
     cin >> c;
     if(c=='S')
-    cout << "Superoir";
+    cout << "Superior";
     else if(c=='A')
     cout << "Excellent";
     else if(c=='B')
