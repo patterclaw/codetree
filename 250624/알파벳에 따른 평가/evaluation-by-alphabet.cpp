@@ -7,13 +7,13 @@ int main() {
     cin >> c;
     if(c=='S')
     cout << "Superoir";
-    if(c=='A')
+    else if(c=='A')
     cout << "Excellent";
-    if(c=='B')
+    else if(c=='B')
     cout << "Good";
-    if(c=='C')
+    else if(c=='C')
     cout << "Usually";
-    if(c=='D')
+    else if(c=='D')
     cout << "Effort";
     else
     cout << "Failure";    
