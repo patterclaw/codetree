@@ -6,14 +6,14 @@ int main() {
     int a;
     cin >>a;
     if(a % 3==0){
-        cout<< "Yes"<<endl;
+        cout<< "YES"<<endl;
     }
     else
-    cout <<"No"<<endl;
+    cout <<"NO"<<endl;
     if(a % 5==0){
-        cout<< "Yes";
+        cout<< "YES";
     }
     else
-    cout <<"No";
+    cout <<"NO";
     return 0;
 }
