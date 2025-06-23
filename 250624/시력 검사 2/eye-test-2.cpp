@@ -10,7 +10,8 @@ int main() {
     else if(d>0.5){
         cout << "Middle";
     }
-    else
+    else{
     cout << "Low";
+    }
     return 0;
 }
