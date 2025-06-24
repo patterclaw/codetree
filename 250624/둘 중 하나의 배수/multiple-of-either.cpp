@@ -6,5 +6,6 @@ int main() {
     int  a;
     cin >>a;
     a=((a%3==0)||(b%5==0))?1:0;
+    cout <<a;
     return 0;
 }
