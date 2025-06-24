@@ -8,7 +8,7 @@ int main() {
     int min=a;
     if(min>b)
     min=b;
-    else if(min >c)
+     if(min >c)
     min=c;
     cout << min;
     return 0;
