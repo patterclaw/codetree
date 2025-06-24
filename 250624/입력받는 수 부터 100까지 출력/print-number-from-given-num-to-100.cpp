@@ -7,7 +7,7 @@ int main() {
     cin >>n;
     for(int i=n;i<=100;i++)
     {
-        cout << i << '\n';
+        cout << i << ' ';
     }
     return 0;
 }
