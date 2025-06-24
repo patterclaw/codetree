@@ -18,6 +18,9 @@ int main() {
             med=c;
             cout <<med;
         }
+        else if(a>c)
+        cout<< a;
+    
     }
     else//a>b
     {
@@ -26,6 +29,8 @@ int main() {
         else if(b<c && a>c){
         med=c;
         cout <<med;}
+        else if(b>c)
+        cout <<b;
     }
     return 0;
 }
