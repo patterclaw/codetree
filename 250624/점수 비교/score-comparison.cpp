@@ -7,7 +7,7 @@ int main() {
     int x,y;
     cin >> a>> b;
     cin >>x>> y;
-    cout<< (a>x)&&(b>y);
+    cout<< ((a>x)&&(b>y));
 
     return 0;
 }
