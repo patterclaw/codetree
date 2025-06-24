@@ -6,11 +6,11 @@ int main() {
     int a,b;
     cin >> a>>  b;
     cout << (a>=b);
-    cout << a>b;
-    cout << b>=a;
-    cout << b>a;
-    cout << a==b;
-    cout <<a!=b;
+    cout << (a>b);
+    cout << (b>=a);
+    cout << (b>a);
+    cout << (a==b);
+    cout <<(a!=b);
 
     return 0;
 }
