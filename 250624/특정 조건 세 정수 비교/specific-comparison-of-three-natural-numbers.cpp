@@ -10,7 +10,7 @@ int main() {
     min=b;
     else if(min >c)
     min=c;
-    cout<<(a==min)<<'\n';
+    cout<<(a==min)<<" ";
     cout <<(a==b && b==c && c==a);
     return 0;
 }
