@@ -6,7 +6,7 @@ int main() {
     int a,b;
     char m,w;
     cin >>a>>m>>b>>w;
-    if((a>=19 || b>=19) && (m=='M' || w=='M'))
+    if((a>=19 || m=='M') && (b>=19 || w=='M'))
     cout <<1;
     else 
     cout <<0;
