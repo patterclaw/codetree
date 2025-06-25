@@ -16,6 +16,6 @@ int main() {
         }
     }
     average=(double)sum/cnt;
-    cout << sum <<average;
+    cout << sum <<" "<<average;
     return 0;
 }
