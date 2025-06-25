@@ -8,8 +8,8 @@ int main() {
     for(int i=0;i<n;i++)
     {
         cin >>n;
-        if(n%3==0 && n%2!=0){
-            sum+=n;
+        if(i%3==0 && i%2!=0){
+            sum+=i;
         }
     }
     cout << sum;
