@@ -13,7 +13,10 @@ int main() {
         sum+=a;
 
     }
+    cout<<fixed;
+    cout.precision(1);
     avg=(double)sum/n;
+    
     cout << sum << " " << avg;
     return 0;
 }
