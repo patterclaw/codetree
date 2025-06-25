@@ -3,17 +3,18 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    int  a,b,c;
+    int  a,b;
+   
     cin >> a>> b;
-    for(int i=0;i<3;i++)
-    {
-        c=a/b;
-        c+=((10*(b-a/b))/b)*0.1;
-        
-        
-        
-    }
-    cout <<c;
+     cout << a/b << ".";
+     a=a%b;
+        for(int  i=0;i<20;i++){
+        a*=10;
+        cout << a/b;
+        a=a%b;
+        }
+    
+    
     
     return 0;
 }
