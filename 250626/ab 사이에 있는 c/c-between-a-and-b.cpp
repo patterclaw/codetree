@@ -10,10 +10,11 @@ int main() {
     for(int i=a;i<=b;i++){
         if(i%c==0)
         s=true;
+        
     }
     if(s)
-    cout << "Yes";
+    cout << "YES";
     else
-    cout << "No";
+    cout << "NO";
     return 0;
 }
