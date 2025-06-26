@@ -16,5 +16,6 @@ int main() {
     cout<<fixed;
     cout.precision(2);
     avg=(double)sum/cnt;
+    cout << avg;
     return 0;
 }
