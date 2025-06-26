@@ -7,9 +7,10 @@ int main() {
     cin >>n;
     for(int i=n;i>0;i--){
         for(int j=1;j<=i*i;j++){
-        if(j==i || j==2*i || j==3*i){
+        if(j%i==0){
             cout << "* ";
         }
+        else
         cout<< "*";
 
         }
