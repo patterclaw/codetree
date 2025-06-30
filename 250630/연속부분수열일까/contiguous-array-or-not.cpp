@@ -24,6 +24,8 @@ int main() {
         for(int j=0;j<n2;j++){
             if(a[x+j]==b[j])
             cnt++;
+            else
+            break;
         }
     }
     if(cnt==n2){
