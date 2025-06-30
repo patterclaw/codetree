@@ -16,7 +16,7 @@ int main() {
     for(int i=0;i<=n1-n2;i++){
         if(a[i]==b[0]){
             x=i;
-            break;
+            
         }
     }
     int cnt=0;
