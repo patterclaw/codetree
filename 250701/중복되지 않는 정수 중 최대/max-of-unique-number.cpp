@@ -7,7 +7,7 @@ int nums[1000];
 
 int main() {
     cin >> N;
-    int arr[1001]={};
+    int arr[1000]={};
     for (int i = 0; i < N; i++) {
         cin >> nums[i];
         arr[nums[i]]++;
