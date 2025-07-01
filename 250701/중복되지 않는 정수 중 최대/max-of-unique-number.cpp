@@ -12,19 +12,15 @@ int main() {
         cin >> nums[i];
         arr[nums[i]]++;
     }
-    int max=0;
+    int max=-1;
     for (int i = 0; i < N; i++) {
         if(arr[nums[i]]==1){
             if(nums[i]>max){
                 max=nums[i];
             }
         }
-        
     }
-    if(max!=0)
-    cout << max;
-    else 
-    cout << -1;
+   cout <<max;
     
     
 
