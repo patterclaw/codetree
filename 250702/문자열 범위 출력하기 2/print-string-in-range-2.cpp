@@ -5,15 +5,15 @@ using namespace std;
 int main() {
     // Please write your code here.
     string str;
-    getline(cin,str);
+    cin >>str;
     int n;
     cin >>n;
     if(n>str.length())
     n=str.length();
-    
-    for(int i=str.length()-1;i>=str.length()-n;i--)
+    int start=str.length()-1;
+    int end=str.length()-n;
+    for(int i=start;i>=end;i--)
         cout << str[i];
         
-    
     return 0;
 }
