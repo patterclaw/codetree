@@ -9,16 +9,16 @@ int main() {
     for(int i=0;i<m;i++){
         int r,c;
         cin >> r >>c;
-        arr[r][c]=1;
+        arr[r-1][c-1]=1;
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            if(a[i][j]==1)
+            if(arr[i][j]==1)
             cout << 1 << " ";
             else
             cout <<0 << " ";
         }
-        cout <, '\n';
+        cout << '\n';
     }
     return 0;
 }
