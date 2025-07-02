@@ -4,12 +4,14 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    int s1,s2;
+    string s1,s2;
     cin >>s1>>s2;
-    if(s1.length()>s2.length)
-    cout << s1 << s1.length();
-    else if(s1.length()<s2.length)
-    cout << s2 << s2.length();
+    int a=s1.length();
+    int b=s2.length();
+    if(a>b)
+    cout << s1 << " "<<a;
+    else if(a<b)
+    cout << s2 << " "<<b;
     else
     cout <<"same";
     return 0;
