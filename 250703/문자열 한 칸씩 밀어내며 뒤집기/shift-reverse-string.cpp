@@ -2,10 +2,10 @@
 #include <string>
 
 using namespace std;
-string str;
-    int n;
+
 int main() {
-    
+    string str;
+    int n;
     cin >> str >> n;
     for(int i=0;i <n ;i++){
         int a;
@@ -17,9 +17,12 @@ int main() {
             str=str.substr(str.length()-1,1)+str.substr(0,str.length()-1);
             cout << str << '\n';
         }else if(a==3){
-            for(int j=str.length()-1;j>=0;j--){
-                cout << str[j];
+            for(int j=0;j<str.length()/2;j++){
+                char c=str[j];
+                str[j]=str[str.length()-1-j];
+                str[str.length()-1-j]=c;
             }
+            cout << str;
             cout << '\n'; 
         }
     }
