@@ -2,10 +2,10 @@
 #include <string>
 
 using namespace std;
-
-int main() {
-    string str;
+string str;
     int n;
+int main() {
+    
     cin >> str >> n;
     for(int i=0;i <n ;i++){
         int a;
