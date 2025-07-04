@@ -7,19 +7,23 @@ int main() {
     cin  >> a >> b;
     int c=0,d=0;
     for(int i=0;i<a.length();i++){
-        if('0'<=a[i] && '9'>=a[i])
-        c=a.find(a[i]);
-        else
-        break;
+        if(!('0'<=a[i] && '9'>=a[i])){
+            c=i;
+            break;
+        }
+       
+        
     }
-    a=a.erase(c+1,a.length()-(c+1));
+    a=a.substr(0,c);
     for(int i=0;i<b.length();i++){
-        if('0'<=b[i] && '9'>=b[i])
-        d=b.find(b[i]);
-        else
+        if(!('0'<=b[i] && '9'>=b[i]))
+       {
+        d=i;
         break;
+       }
+        
     }
-    b=b.erase(d+1,b.length()-(d+1));
+    b=b.substr(0,d);
     cout << stoi(a)+stoi(b);
     // Please write your code here.
     return 0;
