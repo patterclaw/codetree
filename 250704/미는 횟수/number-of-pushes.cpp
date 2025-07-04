@@ -10,7 +10,7 @@ int main() {
     {cout  << 0;
     return 0;}
     while(cnt<a.length()){
-        a=a.substr(1)+a[0];
+        a=a[a.length()-1]+a.substr(0,a.length()-1);
         cnt++;
         if(a==b)
         break;
