@@ -15,7 +15,7 @@ int main() {
         if(a==b)
         break;
     }
-    if(cnt!=a.length())
+    if(a==b)
     cout << cnt;
     else
     cout << -1;
