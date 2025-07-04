@@ -6,9 +6,7 @@ int main() {
     string a,b;
     cin >>a>>b;
     int cnt=0;
-    if(a==b)
-    {cout  << 0;
-    return 0;}
+   
     while(a.length()>cnt){
         a=a.substr(1)+a[0];
         cnt++;
