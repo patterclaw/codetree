@@ -6,8 +6,10 @@ int main() {
     string a,b;
     cin >>a>>b;
     int cnt=0;
-   
-    while(a.length()>cnt){
+    if(a==b)
+    {cout  << 0;
+    return 0;}
+    while(cnt<a.length()){
         a=a.substr(1)+a[0];
         cnt++;
         if(a==b)
