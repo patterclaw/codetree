@@ -9,7 +9,7 @@ int main() {
     if(a==b)
     {cout  << 0;
     return 0;}
-    while(a.length()!=cnt){
+    while(a.length()>cnt){
         a=a.substr(1,a.length()-1)+a.substr(0,1);
         cnt++;
         if(a==b)
