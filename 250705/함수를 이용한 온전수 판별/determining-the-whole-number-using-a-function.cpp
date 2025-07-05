@@ -1,6 +1,8 @@
 #include <iostream>
 
 using namespace std;
+
+int a,b;
 bool completeNumber(int a){
     if(a%2==0 || a%10==5 || (a%3==0 && a%9!=0))
     return false;
@@ -10,7 +12,7 @@ bool completeNumber(int a){
 
 
 int main() {
-    int a,b,cnt=0;
+    int cnt=0;
     cin >> a >> b;
     for(int i=a;i<=b;i++){
         if(completeNumber(i)){
