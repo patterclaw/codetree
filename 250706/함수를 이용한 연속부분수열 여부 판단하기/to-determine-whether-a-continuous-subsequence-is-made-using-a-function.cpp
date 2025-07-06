@@ -10,11 +10,11 @@ int main() {
 
     for (int i = 0; i < n1; i++) cin >> a[i];
     for (int i = 0; i < n2; i++) cin >> b[i];
-    int start=a[0];
+    //int start=a[0];
     int index=-1;
     for(int i=0;i<n1;i++){
         if(b[0]==a[i]){
-        start=a[i];//start=a[1]
+        //start=a[i];//start=a[1]
         index=i;//index=1
         }
     }
@@ -28,8 +28,5 @@ int main() {
     cout << "Yes";
     else
     cout <<"No";
-    
-
-
     return 0;
 }
