@@ -15,7 +15,8 @@ int main() {
     for(int i=0;i<n1;i++){
         if(b[0]==a[i]){
         //start=a[i];//start=a[1]
-        index=i;//index=1
+        index=i;
+        break;//index=1
         }
     }
     bool sub=true;
