@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < n1; i++) cin >> a[i];
     for (int i = 0; i < n2; i++) cin >> b[i];
     //int start=a[0];
-    for(int i=0;i<n1-n2;i++)
+    for(int i=0;i<=n1-n2;i++)
     {   bool sub=true;// 00 01 02 10 11 12 20 21 22-> 0 1 2 1 2 3 2 3 4
         for(int j=0;j<n2;j++){
             if(a[i+j]!=b[j]){
