@@ -11,23 +11,19 @@ int main() {
     for (int i = 0; i < n1; i++) cin >> a[i];
     for (int i = 0; i < n2; i++) cin >> b[i];
     //int start=a[0];
-    int index=-1;
-    for(int i=0;i<n1;i++){
-        if(b[0]==a[i]){
-        //start=a[i];//start=a[1]
-        index=i;
-        break;//index=1
+    for(int i=0;i<n1-n2;i++)
+    {   bool sub=true;// 00 01 02 10 11 12 20 21 22-> 0 1 2 1 2 3 2 3 4
+        for(int j=0;j<n2;j++){
+            if(a[i+j]!=b[j]){
+                sub=false;
+                break;
+            }
+        }
+        if(sub){
+        cout << "Yes";
+        return 0;
         }
     }
-    bool sub=true;
-    for(int i=0;i<n2;i++){
-        if(a[index++]!=b[i])
-            sub=false;
-        
-    }
-    if(sub)
-    cout << "Yes";
-    else
-    cout <<"No";
+    cout << "No";
     return 0;
 }
