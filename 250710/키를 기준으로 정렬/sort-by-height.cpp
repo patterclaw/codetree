@@ -23,7 +23,7 @@ int main() {
     string name;
     int height;
     int weight;
-    Student student[5];
+    Student student[n];
     for (int i = 0; i < n; i++) {
         cin >> name;
         cin >> height;
