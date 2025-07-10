@@ -8,12 +8,12 @@ class Student{
     string name;
     int height;
     int weight;
-    Student(string name,int height,int weight){
+    Student(string name="",int height=0,int weight=0){
         this->name=name;
         this->height=height;
         this->weight=weight;
     }
-    Student(){}
+    //Student(){}
 };
 bool cmp(const Student &a,const Student &b){
     return a.height<b.height;
