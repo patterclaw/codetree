@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+int n;
 string name[10];
 int height[10];
 int weight[10];
@@ -26,7 +26,6 @@ bool cmpName(const Person &a,const Person &b)
 }
 
 int main() {
-    int n;
     cin >>n;
     Person person[n];
     for (int i = 0; i < 5; i++) {
