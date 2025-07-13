@@ -28,6 +28,8 @@ bool cmpHeight(const Person &a,const Person &b)
     return a.height>b.height;
 }
 int main() {
+    cout <<fixed;
+    cout.precision(1);
     Person person[5];
     for (int i = 0; i < 5; i++) {
         cin >> name[i] >> height[i] >> weight[i];
