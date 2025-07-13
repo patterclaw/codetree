@@ -22,6 +22,8 @@ class Coordinate{
     Coordinate(){}
 };
 bool cmp(const Coordinate &a,const Coordinate &b){
+    if(a.sum==b.sum)
+    return a.num<b.num;
     return a.sum<b.sum;
 }
 
