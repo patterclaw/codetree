@@ -28,12 +28,12 @@ bool cmpName(const Person &a,const Person &b)
 int main() {
     cin >>n;
     Person person[n];
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> name[i] >> height[i] >> weight[i];
         person[i]=Person(name[i],height[i],weight[i]);
     }
     sort(person,person+n,cmpName);
-    for(int i=0;i<5;i++){
+    for(int i=0;i<n;i++){
         cout << person[i].name << ' ' << person[i].height << ' ' << person[i].weight << '\n';
     }
    
