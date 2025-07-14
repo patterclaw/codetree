@@ -16,6 +16,8 @@ class Sequence{
     Sequence(){}
 };
 bool cmp(const Sequence &a,const Sequence &b){
+    if(a.element==b.element)
+    return a.number<b.number;
     return a.element<b.element;
 }
 int main() {
