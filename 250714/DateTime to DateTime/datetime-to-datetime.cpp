@@ -26,7 +26,7 @@ int main() {
            hour=0; 
         }
     }
-    if(b<=11 && a<11){
+    if(b<=11 && c<11){
         cout << -1;
     }
     else
