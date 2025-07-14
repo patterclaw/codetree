@@ -38,9 +38,12 @@ int main() {
             d=1;
         }
     }
-    elapse_time+=distance;
-    cnt=elapse_time/7;
-    cout << cnt;
+    for(int i=0;i<=elapse_time;i++){
+        int current_week=i%7;
+        if(current_week==distance)
+        cnt++;
+    }
+    cout <<cnt;
 
     // Please write your code here.
 
