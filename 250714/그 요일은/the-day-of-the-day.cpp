@@ -28,8 +28,6 @@ int main() {
     int m=m1;
     int d=d1;
     int elapse_time=0;
-   
-    
     while(1){
         if(m==m2 && d==d2)
         break;
@@ -40,9 +38,9 @@ int main() {
             d=1;
         }
     }
-    elapse_time-=distance;
+    elapse_time+=distance;
     cnt=elapse_time/7;
-    cout << ++cnt;
+    cout << cnt;
 
     // Please write your code here.
 
