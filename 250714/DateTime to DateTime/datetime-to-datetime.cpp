@@ -10,6 +10,10 @@ int main() {
     int day=11;
     int minute=11;
     int elapse_time=0;
+    if((a==11 && b<11) || (a==11 && b==11&&c<11)){
+    cout <<-1;
+    return 0;
+    }
     while(1){
         if(day==a && hour==b && minute==c){
             break;
@@ -26,10 +30,7 @@ int main() {
            hour=0; 
         }
     }
-    if(b<=11 && c<11){
-        cout << -1;
-    }
-    else
+   
     cout <<elapse_time;
     // Please write your code here.
 
