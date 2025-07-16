@@ -8,7 +8,7 @@ int cnt[201];
 
 int main() {
     cin >> n;
-    int max_index=0;
+    int max_index=-1;
     for (int i = 0; i < n; i++) {
         cin >> x1[i] >> x2[i];
         if(x2[i]>max_index)
