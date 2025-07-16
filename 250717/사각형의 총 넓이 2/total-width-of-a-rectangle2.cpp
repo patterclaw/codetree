@@ -5,7 +5,7 @@ using namespace std;
 int N;
 int x1[10], y1[10];
 int x2[10], y2[10];
-int cnt[200][200];
+int cnt[201][201];
 int main() {
     cin >> N;
 
@@ -19,8 +19,8 @@ int main() {
         }
     }
     int sum=0;
-    for(int i=0;i<200;i++){
-        for(int j=0;j<200;j++){
+    for(int i=0;i<201;i++){
+        for(int j=0;j<201;j++){
             sum+=cnt[i][j];
         }
         
