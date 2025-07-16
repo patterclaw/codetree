@@ -16,7 +16,7 @@ int main() {
         }
     }
     int max=cnt[0];
-    for(int i=0;i<100;i++){
+    for(int i=1;i<100;i++){
         if(cnt[i]>max)
         max=cnt[i];
     }
