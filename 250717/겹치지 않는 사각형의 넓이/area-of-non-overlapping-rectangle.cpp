@@ -27,15 +27,12 @@ int main() {
      for(int i=x1[2];i<x2[2];i++){
             for(int j=y1[2];j<y2[2];j++){
             area[i][j]++;
-            }
-        }
-    for(int i=x1[2];i<x2[2];i++){
-            for(int j=y1[2];j<y2[2];j++){
             if(area[i][j]>1){
                 sum--;
             }
             }
         }
+    
     cout << sum;
     // Please write your code here.
 
