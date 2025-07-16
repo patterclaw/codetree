@@ -13,13 +13,13 @@ int main() {
         cin >> x1[i] >> x2[i];
         if(x2[i]>max_index)
         max_index=x2[i];
-        for(int a=x1[i];a<x2[i];a++){
+        for(int a=x1[i]+100;a<x2[i]+100;a++){
             cnt[a]++;
         }
     }
     
     int max=0;
-    for(int i=1;i<max_index;i++){
+    for(int i=1;i<max_index+100;i++){
         if(cnt[i]>max)
         max=cnt[i];
     }
