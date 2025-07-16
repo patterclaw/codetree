@@ -4,7 +4,7 @@ using namespace std;
 
 int n;
 int x1[100], x2[100];
-int cnt[100];
+int cnt[201];
 
 int main() {
     cin >> n;
@@ -17,6 +17,7 @@ int main() {
             cnt[a]++;
         }
     }
+    
     int max=cnt[0];
     for(int i=1;i<max_index;i++){
         if(cnt[i]>max)
