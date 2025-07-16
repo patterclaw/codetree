@@ -20,11 +20,11 @@ int main() {
             for(int j=start_pos;j<end_pos;j++){
                 color[j]='b';
             }
-            curr_pos=end_pos;
+            curr_pos=end_pos-1;
         }
         else{
-            start_pos=curr_pos-x[i];
-            end_pos=curr_pos;
+            start_pos=curr_pos-x[i]+1;
+            end_pos=curr_pos+1;
             for(int j=start_pos;j<end_pos;j++){
                 color[j]='w';
             }
