@@ -38,8 +38,9 @@ int main() {
     int ans=-1;
     for(int i=1;i<ta;i++){
         if(posa[i]==posb[i])
-        ans=i
+        {ans=i
         break;
+    }
     }
     cout <<ans;
 
