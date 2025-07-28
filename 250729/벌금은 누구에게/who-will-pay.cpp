@@ -14,7 +14,7 @@ int main() {
     }
     int anw=-1;
     for(int i=0;i<m;i++){
-        if(arr[student[i]]==k)
+        if(arr[student[i]]>=k)
         {
             anw=student[i];
             break;
