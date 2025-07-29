@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <algorithm>
 using namespace std;
 
 int n, m;
@@ -48,7 +48,8 @@ int main() {
         }
     }
     int pos=0;
-    for(int i=1;i<tb;i++){
+    int max1=max(ta,tb);
+    for(int i=1;i<max1;i++){
             if(a[i-1]!=b[i-1] && a[i]==b[i])
              pos++;
     }
