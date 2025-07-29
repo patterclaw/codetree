@@ -32,19 +32,23 @@ int main() {
     int leader=0;
     for(int i=0;i<ta;i++){
         if(posa[i]>posb[i]){
-            if(leader==2){
+            if(leader==2 ||leader==3){
                 a++;
             }
             leader=1;
         }
         else if(posa[i]<posb[i]){
-            if(leader==1)
+            if(leader==1 || leader==3)
             a++;
             leader=2;
         }
-        else if(i!=0 && posa[i]==posb[i])
-        a++;
+        else if(posa[i]==posb[i]){
+            if(leader==1 || leader==2)
+            a++;
+            leader=3;
+        }
     }
+    
     cout << a;
     return 0;
 }
