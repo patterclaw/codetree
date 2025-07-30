@@ -18,8 +18,7 @@ int main() {
         else if(dirs[i]=='R')
             num=(num+1)%4;
         else if(dirs[i]=='F')
-            nx=x+dx[num],ny=y+dy[num];
-            
+            nx+=x+dx[num],ny+=y+dy[num]; 
     }
     cout << nx<<' '<<ny;
     // Please write your code here.
